@@ -7,11 +7,12 @@ int main() {
     printf("Informe o valor do segundo numero: ");
     scanf("%d", &numero2);
     soma = numero1 + numero2;
-    printf("A soma dos numeros e: %d\n", soma);
+    printf("A soma dos numeros é: %d\n", soma);
 
     if (soma % 2 ==0)
         printf("par");
     else 
         printf("impar");
     return 0;
+
 }
