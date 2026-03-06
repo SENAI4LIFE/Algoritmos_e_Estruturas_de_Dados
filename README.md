@@ -1,33 +1,42 @@
+<pre>
 ### Operadores Aritméticos
-Adição                 + <br><br>
-Subtração              - <br><br>
-Multiplicação          * <br><br>
-Divisão                / <br><br>
-Módulo                 % <br><br>
-Incremento             ++ <br><br>
-Decremento             -- <br><br>
+Adição                 +
+Subtração              -
+Multiplicação          *
+Divisão                /
+Módulo                 %
+Incremento             ++
+Decremento             --
 
 ### Operadores Relacionais
-Igual a                == <br><br>
-Diferente de           != <br><br>
-Maior que              > <br><br>
-Menor que              < <br><br>
-Maior ou igual a       >= <br><br>
-Menor ou igual a       <= <br><br>
+Igual a                ==
+Diferente de           !=
+Maior que              >
+Menor que              <
+Maior ou igual a       >=
+Menor ou igual a       <=
 
 ### Operadores Lógicos
-AND lógico             && <br><br>
-OR lógico              || <br><br>
-NOT lógico             ! <br><br>
+AND lógico             &&
+OR lógico              ||
+NOT lógico             !
 
+### Operadores Bitwise
+AND bit a bit          &
+OR bit a bit           |
+XOR bit a bit          ^
+NOT bit a bit          ~
+Shift left             <<
+Shift right            >>
 
 ### Operadores de Atribuição
-Atribuição             = <br><br>
-Atribuição de adição   += <br><br>
-Atribuição de subtração -= <br><br>
-Atribuição de mult.    *= <br><br>
-Atribuição de div.     /= <br><br>
-Atribuição de módulo   %= <br><br>
+Atribuição             =
+Atribuição de adição   +=
+Atribuição de subtração -=
+Atribuição de mult.    *=
+Atribuição de div.     /=
+Atribuição de módulo   %=
+</pre>
 ```
 gcc arquivo.c -o programa
 
