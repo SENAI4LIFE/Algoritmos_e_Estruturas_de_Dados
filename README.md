@@ -20,13 +20,6 @@ AND lógico             && <br><br>
 OR lógico              || <br><br>
 NOT lógico             ! <br><br>
 
-### Operadores Bitwise
-AND bit a bit          & <br><br>
-OR bit a bit           | <br><br>
-XOR bit a bit          ^ <br><br>
-NOT bit a bit          ~ <br><br>
-Shift left             << <br><br>
-Shift right            >> <br><br>
 
 ### Operadores de Atribuição
 Atribuição             = <br><br>
