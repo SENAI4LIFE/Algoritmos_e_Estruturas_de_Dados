@@ -32,7 +32,7 @@ Shift right                  >>
 ### Operadores de Atribuição
 Atribuição                   =
 Atribuição de adição         +=
-Atribuição de subtração       -=
+Atribuição de subtração      -=
 Atribuição de mult.          *=
 Atribuição de div.           /=
 Atribuição de módulo         %=
