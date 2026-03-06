@@ -1,7 +1,7 @@
 # ALGORITMOS
 
-bash ```
-
+bash 
+```
 gcc arquivo.c -o programa
 
 ```
