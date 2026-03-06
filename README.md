@@ -63,7 +63,6 @@ Atribuição de divisão /= <br>
 <br>
 Atribuição de módulo %= <br>
 <br>
-
 ```
 gcc arquivo.c -o programa
 
