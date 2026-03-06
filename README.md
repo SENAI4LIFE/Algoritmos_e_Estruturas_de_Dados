@@ -1,68 +1,67 @@
-# ALGORITMOS
 ### Operadores Aritméticos
-Adição (+) <br>
+Adição + <br>
 <br>
-Subtração (-) <br>
+Subtração - <br>
 <br>
-Multiplicação (*) <br>
+Multiplicação * <br>
 <br>
-Divisão (/) <br>
+Divisão / <br>
 <br>
-Módulo (%) <br>
+Módulo % <br>
 <br>
-Incremento (++) <br>
+Incremento ++ <br>
 <br>
-Decremento (--) <br>
+Decremento -- <br>
 <br>
 
 ### Operadores Relacionais
-Igual a (==) <br>
+Igual a == <br>
 <br>
-Diferente de (!=) <br>
+Diferente de != <br>
 <br>
-Maior que (>) <br>
+Maior que > <br>
 <br>
-Menor que (<) <br>
+Menor que < <br>
 <br>
-Maior ou igual a (>=) <br>
+Maior ou igual a >= <br>
 <br>
-Menor ou igual a (<=) <br>
+Menor ou igual a <= <br>
 <br>
 
 ### Operadores Lógicos
-AND lógico (&&) <br>
+AND lógico && <br>
 <br>
-OR lógico (||) <br>
+OR lógico || <br>
 <br>
-NOT lógico (!) <br>
+NOT lógico ! <br>
 <br>
 
 ### Operadores Bitwise
-AND bit a bit (&) <br>
+AND bit a bit & <br>
 <br>
-OR bit a bit (|) <br>
+OR bit a bit | <br>
 <br>
-XOR bit a bit (^) <br>
+XOR bit a bit ^ <br>
 <br>
-NOT bit a bit (~) <br>
+NOT bit a bit ~ <br>
 <br>
-Shift left (<<) <br>
+Shift left << <br>
 <br>
-Shift right (>>) <br>
+Shift right >> <br>
 <br>
 
 ### Operadores de Atribuição
-Atribuição (=) <br>
+Atribuição = <br>
 <br>
-Atribuição de adição (+=) <br>
+Atribuição de adição += <br>
 <br>
-Atribuição de subtração (-=) <br>
+Atribuição de subtração -= <br>
 <br>
-Atribuição de multiplicação (*=) <br>
+Atribuição de multiplicação *= <br>
 <br>
-Atribuição de divisão (/=) <br>
+Atribuição de divisão /= <br>
 <br>
-Atribuição de módulo (%=) <br>
+Atribuição de módulo %= <br>
 <br>
 
 ```
