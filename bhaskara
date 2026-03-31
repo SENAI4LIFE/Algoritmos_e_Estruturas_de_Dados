@@ -1,0 +1,55 @@
+#include <stdio.h>
+#include <math.h>
+
+double calcular_delta(double a, double b, double c) {
+    return (b * b) - (4 * a * c);
+}
+
+double calcular_x1(double a, double b, double delta) {
+    return (-b + sqrt(delta)) / (2 * a);
+}
+
+double calcular_x2(double a, double b, double delta) {
+    return (-b - sqrt(delta)) / (2 * a);
+}
+
+void exibir_resultados(double x1, double x2) {
+    printf("x1 = %.4f\n", x1);
+    printf("x2 = %.4f\n", x2);
+}
+
+int main() {
+    double a, b, c, delta;
+
+    printf("Digite o valor de a: ");
+    scanf("%lf", &a);
+
+    printf("Digite o valor de b: ");
+    scanf("%lf", &b);
+
+    printf("Digite o valor de c: ");
+    scanf("%lf", &c);
+
+    if (a == 0) {
+        printf("Erro: o coeficiente 'a' nao pode ser zero.\n");
+        return 1;
+    }
+
+    delta = calcular_delta(a, b, c);
+
+    if (delta < 0) {
+        printf("Delta = %.4f — equacao sem raizes reais.\n", delta);
+        return 0;
+    }
+
+    if (delta == 0) {
+        printf("Delta = %.4f — raiz unica:\n", delta);
+        exibir_resultados(calcular_x1(a, b, delta), calcular_x1(a, b, delta));
+        return 0;
+    }
+
+    printf("Delta = %.4f\n", delta);
+    exibir_resultados(calcular_x1(a, b, delta), calcular_x2(a, b, delta));
+
+    return 0;
+}
